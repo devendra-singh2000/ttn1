@@ -23,6 +23,12 @@ pipeline{
             }
         
         }
+        stage("delete file"){
+            steps{
+                sh 'rm b1.sh'
+            }
+        
+        }
     
     }
 }
